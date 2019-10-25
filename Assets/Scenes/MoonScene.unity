@@ -132,9 +132,8 @@ GameObject:
   - component: {fileID: 561431468}
   - component: {fileID: 561431467}
   - component: {fileID: 561431466}
-  - component: {fileID: 561431465}
   m_Layer: 0
-  m_Name: Platform1 (2)
+  m_Name: Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -154,19 +153,6 @@ Transform:
   m_Father: {fileID: 1685272208}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &561431465
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 561431463}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ac5e58e58915fe419c3783610f7b192, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  physicMaterial: {fileID: 6200000, guid: 1d288dbe1fc2a004aa403a2e0b22ae7c, type: 2}
 --- !u!114 &561431466
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -188,7 +174,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 561431463}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: f6cd5f41666377d43924313338b662cc, type: 2}
+  m_Material: {fileID: 6200000, guid: 0ba48dc8aa8559b4fa72c6e8f06336be, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -266,9 +252,8 @@ GameObject:
   - component: {fileID: 634144269}
   - component: {fileID: 634144268}
   - component: {fileID: 634144267}
-  - component: {fileID: 634144266}
   m_Layer: 0
-  m_Name: Platform1
+  m_Name: Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -288,19 +273,6 @@ Transform:
   m_Father: {fileID: 1685272208}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &634144266
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 634144264}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ac5e58e58915fe419c3783610f7b192, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  physicMaterial: {fileID: 6200000, guid: 1d288dbe1fc2a004aa403a2e0b22ae7c, type: 2}
 --- !u!114 &634144267
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -322,7 +294,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 634144264}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: f6cd5f41666377d43924313338b662cc, type: 2}
+  m_Material: {fileID: 6200000, guid: 0ba48dc8aa8559b4fa72c6e8f06336be, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -400,9 +372,8 @@ GameObject:
   - component: {fileID: 1219222030}
   - component: {fileID: 1219222029}
   - component: {fileID: 1219222028}
-  - component: {fileID: 1219222027}
   m_Layer: 0
-  m_Name: Platform1 (1)
+  m_Name: Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -422,19 +393,6 @@ Transform:
   m_Father: {fileID: 1685272208}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1219222027
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1219222025}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ac5e58e58915fe419c3783610f7b192, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  physicMaterial: {fileID: 6200000, guid: 1d288dbe1fc2a004aa403a2e0b22ae7c, type: 2}
 --- !u!114 &1219222028
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -456,7 +414,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1219222025}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 1d288dbe1fc2a004aa403a2e0b22ae7c, type: 2}
+  m_Material: {fileID: 6200000, guid: 0ba48dc8aa8559b4fa72c6e8f06336be, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -533,7 +491,6 @@ GameObject:
   - component: {fileID: 1271887816}
   - component: {fileID: 1271887815}
   - component: {fileID: 1271887814}
-  - component: {fileID: 1271887817}
   m_Layer: 0
   m_Name: Ground
   m_TagString: Untagged
@@ -550,7 +507,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1271887813}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 12aa8f9b8a718204ab2c63eaa25b3b3d, type: 2}
+  m_Material: {fileID: 6200000, guid: 0ba48dc8aa8559b4fa72c6e8f06336be, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -630,19 +587,6 @@ Transform:
   m_Father: {fileID: 1685272208}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1271887817
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1271887813}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ac5e58e58915fe419c3783610f7b192, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  physicMaterial: {fileID: 6200000, guid: 1d288dbe1fc2a004aa403a2e0b22ae7c, type: 2}
 --- !u!1 &1685272207
 GameObject:
   m_ObjectHideFlags: 0
@@ -687,9 +631,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1929977419}
   - component: {fileID: 1929977418}
+  - component: {fileID: 1929977420}
   - component: {fileID: 1929977417}
   - component: {fileID: 1929977416}
-  - component: {fileID: 1929977420}
   m_Layer: 0
   m_Name: Ball
   m_TagString: Untagged

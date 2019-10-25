@@ -1,17 +1,15 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace Test.Ball
 {
     public class PlanetCtrl : MonoBehaviour
     {
         [SerializeField]
-        string planetName;
+        private string planetName;
         [SerializeField]
-        float gravity;
+        private float gravity;
         [SerializeField]
-        Color skyColor;
+        private Color skyColor;
 
 
         private void Awake()

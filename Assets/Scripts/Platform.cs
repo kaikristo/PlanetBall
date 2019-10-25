@@ -7,13 +7,13 @@ namespace Test.Ball
 
 
         private SpriteRenderer spriteRenderer;
-        
+
 
         void Start()
         {
             spriteRenderer = GetComponent<SpriteRenderer>();
 
-                SetRandomColor();
+            SetRandomColor();
         }
 
         private void OnCollisionEnter2D(Collision2D collision)

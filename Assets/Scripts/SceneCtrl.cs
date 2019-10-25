@@ -1,5 +1,5 @@
-﻿using UnityEngine.SceneManagement;
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace Test.Ball
 {
@@ -57,11 +57,12 @@ namespace Test.Ball
         }
 
     }
+    public enum Scene
+    {
+        Menu = 0,
+        Eath = 1,
+        Moon = 2,
+        Jupiter = 3
+    };
 }
-public enum Scene
-{
-    Menu = 0,
-    Eath = 1,
-    Moon = 2,
-    Jupiter = 3
-};
+
