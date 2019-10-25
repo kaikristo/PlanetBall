@@ -4,9 +4,10 @@ namespace Test.Ball
 {
     public class Platform : ClickableObject
     {
-      
-        private SpriteRenderer spriteRenderer;
 
+
+        private SpriteRenderer spriteRenderer;
+        
 
         void Start()
         {
@@ -17,7 +18,6 @@ namespace Test.Ball
 
         private void OnCollisionEnter2D(Collision2D collision)
         {
-
             SetRandomColor();
         }
         private void Update()

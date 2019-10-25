@@ -13,14 +13,16 @@ namespace Test.Ball
         float touchSensetivity = 10f;
 
         private Rigidbody2D ballRigidBody;
-
+        private Vector3 velocity;
         private void Awake()
         {
+            Debug.Log("instance");
             if (instance != null)
             {
                 if (instance != this)
                 {
                     Destroy(this.gameObject);
+                    return;
                 }
             }
             else
@@ -28,10 +30,23 @@ namespace Test.Ball
                 instance = this;
                 DontDestroyOnLoad(this);
             }
+           
         }
         void Start()
         {
             ballRigidBody = GetComponent<Rigidbody2D>();
+            velocity = Vector3.zero;
+
+        }
+        private void OnEnable()
+        {
+            Debug.Log("enable");
+            ballRigidBody.velocity = velocity;   
+        }
+        private void OnDisable()
+        {
+            Debug.Log("disable");
+            velocity = ballRigidBody.velocity;
         }
 
         private void FixedUpdate()
