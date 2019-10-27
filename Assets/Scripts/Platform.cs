@@ -18,7 +18,11 @@ namespace Test.Ball
 
         private void OnCollisionEnter2D(Collision2D collision)
         {
-            SetRandomColor();
+            if (collision.transform.tag == "Player")
+            {
+                SetRandomColor();
+                GameCtrl.instance.AddScore(1);
+            }
         }
         private void Update()
         {
